@@ -1,3 +1,9 @@
+const ul = document.querySelector("ul.box");
+console.log(ul);
+
+
+
+
 //stampa in console i numeri da 1 a 100
 for (i = 1; i <= 100; i++){
     // 3- fizz ;5-buzz
