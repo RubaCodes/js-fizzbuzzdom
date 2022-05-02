@@ -9,21 +9,21 @@ for (i = 1; i < 100; i++) {
     li.className = 'tile';
     // 3- fizz ;5-buzz
     if ((i % 3 === 0) && (i % 5 === 0)) { //multiplo di 3 e 5
-        console.log("FizzBuzz");
+        console.log('FizzBuzz');
         li.classList.add('fizz','buzz');
         li.append("FizzBuzz");
     } else if ((i % 3 === 0) && (i % 5 !== 0)) {  //multiplo  solo di 3 
-        console.log("Fizz");
+        console.log('Fizz');
         li.classList.add('fizz')
-        li.append("Fizz");
+        li.append('Fizz');
     } else if ((i % 3 !== 0) && (i % 5 === 0)) {  //multiplo solo di 5
-        console.log("Buzz");
+        console.log('Buzz');
         li.classList.add('buzz')
-        li.append("Buzz");
+        li.append('Buzz');
     }
     else { //ne multiplo di 3 ne di 5
         console.log(i);
-        li.className = "tile";
+        li.className = 'tile';
         li.append(i);
     }
     ul.append(li);
