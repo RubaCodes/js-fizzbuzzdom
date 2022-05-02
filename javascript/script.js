@@ -10,8 +10,7 @@ for (i = 1; i < 100; i++) {
     // 3- fizz ;5-buzz
     if ((i % 3 === 0) && (i % 5 === 0)) { //multiplo di 3 e 5
         console.log("FizzBuzz");
-        li.classList.add('fizz');
-        li.classList.add('buzz');
+        li.classList.add('fizz','buzz');
         li.append("FizzBuzz");
     } else if ((i % 3 === 0) && (i % 5 !== 0)) {  //multiplo  solo di 3 
         console.log("Fizz");
