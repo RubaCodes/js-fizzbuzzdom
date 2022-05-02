@@ -22,8 +22,8 @@ body{
 }
 
 .tile{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     color: black;
     background-color: #1389b2;
     border:  5px solid #083b4c;
