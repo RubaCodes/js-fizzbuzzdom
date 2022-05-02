@@ -13,6 +13,10 @@ body{
     color: white;
     text-align: center;
 }
+
+h1{
+    padding-top: 100px;
+}
 .box{ 
     padding-top: 40px;
     width: 80%;
@@ -25,12 +29,14 @@ body{
 }
 
 .tile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 150px;
     height: 150px;
     color: black;
     background-color: #1389b2;
-    border:  10px solid #083b4c;
-    line-height: 100px;  
+    border:  10px solid #083b4c; 
 }
 
 .tile.fizz{

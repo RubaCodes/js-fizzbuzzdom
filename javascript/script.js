@@ -20,7 +20,7 @@ for (i = 1; i < 100; i++) {
         ul.append(li);
     } else if ((i % 3 !== 0) && (i % 5 === 0)) {
         console.log("Buzz");
-        li.className = "tile bizz";
+        li.className = "tile buzz";
         li.append("Buzz");
         ul.append(li);
     }
