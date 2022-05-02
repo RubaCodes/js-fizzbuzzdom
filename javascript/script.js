@@ -11,22 +11,19 @@ for (i = 1; i < 100; i++) {
         console.log("FizzBuzz");
         li.className = "tile fizz buzz";
         li.append("FizzBuzz");
-        ul.append(li);
     } else if ((i % 3 === 0) && (i % 5 !== 0)) {  //multiplo  solo di 3 
         console.log("Fizz");
         li.className = "tile fizz";
         li.append("Fizz");
-        ul.append(li);
     } else if ((i % 3 !== 0) && (i % 5 === 0)) {  //multiplo solo di 5
         console.log("Buzz");
         li.className = "tile buzz";
         li.append("Buzz");
-        ul.append(li);
     }
     else { //ne multiplo di 3 ne di 5
         console.log(i);
         li.className = "tile";
         li.append(i);
-        ul.append(li);
     }
+    ul.append(li);
 }
