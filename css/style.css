@@ -13,7 +13,8 @@ body{
     color: white;
     text-align: center;
 }
-.box{
+.box{ 
+    list-style: none;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,4 +25,17 @@ body{
     width: 100px;
     height: 100px;
     color: black;
+    background-color: #1389b2;
+    border:  5px solid #083b4c;
+    line-height: 100px;  
+}
+
+.tile.fizz{
+    background-color: #0bd6a1;
+}
+.tile.buzz{
+    background-color: #ffd166;
+}
+.tile.fizz.buzz{
+    background-color: #f0466f;
 }
