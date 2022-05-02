@@ -28,17 +28,17 @@ h1{
     flex-wrap: wrap;
 }
 
+/* style dei tile normali e speciali */
 .tile{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     color: black;
     background-color: #1389b2;
     border:  10px solid #083b4c; 
 }
-
 .tile.fizz{
     background-color: #0bd6a1;
 }
