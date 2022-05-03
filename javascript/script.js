@@ -23,7 +23,6 @@ for (i = 1; i < 100; i++) {
     }
     else { //ne multiplo di 3 ne di 5
         console.log(i);
-        li.className = 'tile';
         li.append(i);
     }
     ul.append(li);
